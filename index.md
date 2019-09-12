@@ -18,8 +18,8 @@ Annot8 is a framework for extracting structured information from unstructured da
 
 Read more about Annot8 concepts:
 
-* [concepts/data.md] Data
-* [concepts/components.md] Components
+* [Data](concepts/data.md)
+* [Components](concepts/components.md)
 
 # Getting Started
 
