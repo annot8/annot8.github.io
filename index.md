@@ -20,4 +20,19 @@ Annot8 is a framework for extracting structured information from unstructured da
 
 The Annot8 framework is split into a number of different levels. If you just want to use the low level framework, you can do so by starting with `annot8-core`, but if you want to use the high level aspects and have access to a number of pre-built components then you probably want to start with `annot8-components`.
 
-The easiest way to get started though, is to head over to the `annot8` repository, clone it and call the `./setup.sh` script to setup all the primary repositories on your machine.
+These are available through Maven Central (https://mvnrepository.com/artifact/io.annot8) or through the OSSHR Sonatype snapshot repository. You can add the snapshot repository to your POM via:
+
+```
+  <repositories>
+    <repository>
+      <id>oss-sonatype</id>
+      <name>oss-sonatype</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+```
+
+```
