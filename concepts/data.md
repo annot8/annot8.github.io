@@ -36,18 +36,20 @@ Let's assume the file is written in French, a processor might produce a translat
 * Original Text content in French
 * Translated Text content in English
 
+We can set and use the *properties* of content to determine which content is which.  
+
 ## Annotation
 
-We want to identify aspects within content which are of interest. 
+We want to identify aspects of content which are of interest. 
 
-This could be anything:
+Aspects of interest could be anything:
 
 * A face in an image
 * A word in text
 * A point in a document where the topic changes
 * A section of a video which is outdoors
 
-We create annotations on content.  Annotations live in the AnnotationStore on Content.  
+We create annotations on content to identify these aspects.  Annotations live in the AnnotationStore on content.  
 
 ## Bounds
 
@@ -62,10 +64,10 @@ Examples of bounds are:
 
 ## Groups
 
-Often we have a assoication between Annotataions:
+Often we have an assoication between Annotations:
 
-* Two annotated people (Bob and Robert) might be the same person
-* A relation between a person and a place, (Bob-lives in-London)
+* Two annotated people (Bob and Robert) might be the same person.
+* A relation between a person and a place, (Bob-lives in-London).
 * Technical information about annotations, for example, dependency parsing.
 
 We can store this information in Groups.
