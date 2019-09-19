@@ -23,21 +23,7 @@ Read more about Annot8 concepts:
 
 # Getting Started
 
-The Annot8 framework is split into a number of different levels. If you just want to use the low level framework, you can do so by starting with `annot8-core`, but if you want to use the high level aspects and have access to a number of pre-built components then you probably want to start with `annot8-components`.
+The Annot8 framework is split into two repositories, each of which contain a number of projects.
 
-These are available through Maven Central (https://mvnrepository.com/artifact/io.annot8) or through the OSSHR Sonatype snapshot repository. You can add the snapshot repository to your POM via:
-
-```
-  <repositories>
-    <repository>
-      <id>oss-sonatype</id>
-      <name>oss-sonatype</name>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
-```
-
-```
+* [Annot8](https://github.com/annot8/annot8) - This repository contains all the projects relating directly to the Annot8 framework, including default implementations of the framework interfaces.
+* [Annot8 Components](https://github.com/annot8/annot8-components) - This repository contains processors and sources developed to work in the Annot8 framework
